@@ -8,34 +8,41 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>About Jeremy Marotta</title>
+    <title>About Jeremy</title>
   </head>
-  <body class="w-100">
+  <body>
+    <!-- start with a container full width of viewport to allow use of boostrap nav bar without max width constraints -->
     <div class="container-fluid overflow-hidden">
       <div class="row border-bottom bg-white">
+        <!-- regular container for content section of nav bar to match width of main content -->
           <div class="container p-0">
+            <!-- boostrap nav bar -->
             <nav class="navbar navbar-expand-lg navbar-light p-0 pr-lg-0 pr-3">
-                <a class="navbar-brand text-white pt-4 px-4 pb-3" href="#">
+                <span class="navbar-brand text-white pt-4 px-4 pb-3">
                   <h2>
                   Jeremy Marotta
                   </h2>
-                </a>
+                </span>
+                <!-- toggle button to display nav links when collapsed on small screens -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- links section of nav bar -->
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav p-0 ml-auto">
-                    <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
-                    <p class="disappear"> | </p>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <p class="disappear"> | </p>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+                    <p class="disappear p-auto m-auto"> | </p>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <p class="disappear p-auto m-auto"> | </p>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
                   </div>
                 </div>
               </nav>
           </div>
       </div>
+      <!-- new row for main area of page content -->
       <main id="maincontent" class="row">
+        <!-- another regular container for max content width -->
         <div class="container">
             <section class="row bg-white border-right border-bottom border-left px-1">
               <div class="row mt-0 mx-0 pt-3 px-0">
@@ -45,26 +52,20 @@
               </div>
               <div class="row px-1">
                   <div class="col mx-0 mx-sm-3">
-                    <hr class="mtb-0">
+                    <hr class="my-2">
                     <img class="float-left mr-4 mb-1" src="assets/images/IMG_5774.jpg" width="150" alt="profile pic">
-                      <p>
-                        I was born in a small hamlet in the south of France. Orphaned at the age of 3, I don't remember my real parents. I was raised in a convent by Nuns. The sisters were very kind, but I always felt like I was missing something. I felt no connection of family or country or God. At 17 I decided to leave France
-                      </p>
-                      <p>
-                        For many moons I backpacked around Europe, sleeping outside many nights, finding odd jobs for enough money to keep me fed, if not always sheltered. I met some wonderful people, and plenty of the opposite. I spent a lot of time observing groups of families and friends, dissecting what I could of the relationships I saw. After several years of drifting, I came to the decision that I was not missing anything after all. Turns out I don't much need that after all.
-                      </p>
-                      <p>
-                        Having quenched my wanderlust, and growing weary of Europe, I decided to find new fortunes in the US. I spent some time in England saving up enough money for a plane ride and ended up in New England, which I somehow fell in love with. I got a more permanent job at a machine factory, and started to set down roots.... and lo.. build a family after all... ...by which I mean me and 3 pups.
-                      </p>
-                      <p>
-                        Of course no one changes, all the while, neither staying the same. At the factory, I began to get close with one of my coworkers. 17 years later, I have a family after all. I'm in love and married and perhaps I don't dislike people after all. I suppose anything is possible.
-                      </p>
+                      <p>I was born in a small hamlet in the south of France. Orphaned at the age of 3, I don't remember my real parents. I was raised in a convent by Nuns. The sisters were very kind, but I always felt like I was missing something. I felt no connection of family or country or God. At 17 I decided to leave France.</p>
+                      <p>For many moons I backpacked around Europe, sleeping outside many nights, finding odd jobs for enough money to keep me fed, if not always sheltered. I met some wonderful people, and plenty of the opposite. I spent a lot of time observing groups of families and friends, dissecting what I could of the relationships I saw. After several years of drifting, I came to the decision that I was not missing anything after all. Turns out I don't much need that after all.</p>
+                      <p>Having quenched my wanderlust, and growing weary of Europe, I decided to find new fortunes in the US. I spent some time in England saving up enough money for a plane ride and ended up in New England, which I somehow fell in love with. I got a more permanent job at a machine factory, and started to set down roots.... and lo.. build a family after all... ...by which I mean me and 3 pups.</p>
+                      <p>Of course no one changes, all the while, neither staying the same. At the factory, I began to get close with one of my coworkers. 17 years later, I have a family after all. I'm in love and married and perhaps I don't dislike people after all. I suppose anything is possible.</p>
+                      <br>
                   </div>
               </div>
             </section>
         </div>
       </main>
     </div>
+    <!-- sticky footer section -->
     <footer class="row footer border-top m-0">
       <span class="text-white-50 mx-auto mb-1 mt-auto p-0">Copyright &copy;</span>
     </footer>    <!-- Optional JavaScript -->
