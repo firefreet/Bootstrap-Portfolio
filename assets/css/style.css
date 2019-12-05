@@ -17,6 +17,12 @@ h2, h3, h4, .card-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.fixed-card-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 /* set main content width */
 .container {
     max-width: 960px;
@@ -81,14 +87,14 @@ textarea {
 }
 
 /* data validation color */
-*:invalid {
+#emailField:invalid {
     background-color: #B863A9;
 }
 
-.portfolioimg {
+/* .portfolioimg {
     height: 175px;
     width: 250px;
-}
+} */
 
 .card-text {
     background-color: #4aaaa5;
@@ -99,5 +105,11 @@ textarea {
 @media screen and (max-width: 991px) {
     .disappear {
         display: none;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    h2 {
+        font-size: 25px;
     }
 }
