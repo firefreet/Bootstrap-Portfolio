@@ -26,75 +26,70 @@ h2, h3, h4, .card-text {
 /* set main content width */
 .container {
     max-width: 960px;
-}
-
-/* theme color */
-.navbar-brand, #submitbutton {
+    }
+    
+    /* theme color */
+    .navbar-brand, #submitbutton {
     background: #4aaaa5 !important;
     border-width: 0px !important;
-}
-h4 {
+    }
+    h4 {
     color: #4aaaa5;
-}
-
-/* darken horizontal rule */
-hr {
+    }
+    
+    /* darken horizontal rule */
+    hr {
     color: #777777;
     background-color: #777777;
-}
-
-/* set hover and focus color of links to theme */
-a:hover {
+    }
+    
+    /* set hover and focus color of links to theme */
+    a:hover {
     color: #4aaaa5 !important;
-}
-a:focus {
+    }
+    a:focus {
     background-color: #4aaaa5;
-}
-#submitbutton:hover {
+    }
+    #submitbutton:hover {
     background-color: #4882B8 !important;
-}
-#submitbutton:active {
+    }
+    #submitbutton:active {
     background-color: #48B873 !important;
-}
-
-/* adjust text line height */
-/* set main content height so it is always large enough to 
-push footer to bottom of screen */
-#maincontent {
+    }
+    
+    /* adjust text line height */
+    /* set main content height so it is always large enough to 
+    push footer to bottom of screen */
+    #maincontent {
     line-height: 1.15;
     min-height: calc(100vh - 137px);
-}
-
-/* format footer */
-.footer {
+    }
+    
+    /* format footer */
+    .footer {
     height: 50px;
     font-size: 11px;
     border-top-color: #4aaaa5 !important;
     border-top-width: 8px !important;
     background: #666666;
-}
-
-/* style placeholder text for text input fields */
-*::placeholder {
+    }
+    
+    /* style placeholder text for text input fields */
+    *::placeholder {
     color: #cccccc !important;
     font-style: italic;
-}
-
-/* set message box input height */
-textarea {
+    }
+    
+    /* set message box input height */
+    textarea {
     height: 23vh !important;
     border-color: #cccccc !important;
-}
-
-/* data validation color */
-#emailField:invalid {
+    }
+    
+    /* data validation color */
+    #emailField:invalid {
     background-color: #B863A9;
 }
-
-/* .portfolioimg {
-    height: 175px;
-    width: 250px;
-} */
 
 .card-text {
     background-color: #4aaaa5;
