@@ -33,8 +33,13 @@ max-width: 736px;
 background: #9DBBCF !important;
 border-width: 0px !important;
 }
-h4, a {
+h4 {
 color: #9DBBCF;
+}
+
+a {
+    color: #9CA0DB;
+    font-style: italic;
 }
 
 /* darken horizontal rule */
@@ -72,6 +77,10 @@ font-size: 11px;
 border-top-color: #9DBBCF !important;
 border-top-width: 8px !important;
 background: #666666;
+}
+
+h5 {
+    font-style: italic;
 }
 
 /* style placeholder text for text input fields */
